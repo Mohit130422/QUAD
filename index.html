@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohit Varshney | Frontend Developer</title>
+    <title>QUAD</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
@@ -19,268 +22,72 @@
 <body>
     <!-- header design -->
     <header id="myHeader">
-        <a href="#home" class="logo"><img src="assets/images/logo.svg" alt=""></a>
+        <a href="#home" class="logo"><img src="assets/images/logo.jpeg" alt=""></a>
         <div class="bx bx-menu" id="btn-menu"></div>
-        <nav class="nav-links">
-            <a href="#home" class="active-link"><span class="line"></span>home</a>
-            <a href="#about"><span class="line"></span>about</a>
-            <a href="#education"><span class="line"></span>education</a>
-            <a href="#skills"><span class="line"></span>skills</a>
-            <a href="#contact"><span class="line"></span>contacts</a>
+        <div class="social-links">
+            <a href="#"><img src="assets/images/icons/facebook.png" alt=""></a>
+            <a href="#"><img src="assets/images/icons/twitter.png" alt=""></a>
+            <a href="#"><img src="assets/images/icons/linkedin.png" alt=""></a>
+            <a href="#"><img src="assets/images/icons/youtube.png" alt=""></a>
             <span class="active-navbar"></span>
-        </nav>
-    </header>
-    <main>
-        <!-- home section design -->
-        <section class="home" id="home">
-            <div class="container h-100">
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-6 col-md-12 d-flex text-center text-md-start" data-aos="fade-right">
-                        <div class="home-content">
-                            <h1>Hi, I'm <span> Mohit Varshney</span> </h1>
-                            <div class="animate-text">
-                                <h3><span class="auto-type">Frontend Developer</span></h3>
-                            </div>
-                            <p>Creative Frontend Developer with 2 years+ of experiences using HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. Skilled in creating user-friendly web applications, collaborating with teams, and delivering high-quality, responsive designs.</p>
-                            <div class="btn-box">
-                                <a href="https://drive.google.com/file/d/1iq1YYFvXQKwLSorYgE1xtatDjbfvFFxV/view?usp=drive_link" class="btn" target="_blank">Download CV</a>
-                                <a href="tel:+918077636394" class="btn" target="_blank">Let's Talk</a>
-                            </div>
-                        </div>                                              
-                    </div>
-                    <div class="col-lg-6 d-flex banner" data-aos="fade-left">
-                        <img src="assets/images/background.png" alt="" class="intro-banner">
-                    </div>
-                </div>                
-                <div class="social-icon">
-                    <a href="https://github.com/Mohit130422" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/mohit-varshney-7437571b1/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://www.instagram.com/the_varshney_mohit/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
-                </div> 
-            </div>
-        </section>
+        </div>
+    </header> 
+    <div class="nav-links">
+        <a href="#" class="active-link">Home</a>
+        <a href="#">Meetings</a>
+        <a href="#">Important Links </a>
+        <a href="#">Working Groups</a>
+        <a href="#">Media Center</a>
+    </div>   
 
-         <!-- about section design -->
-        <section class="about" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2 class="heading">About <span>Me</span></h2>
-                        <div class="about-img">
-                            <img src="assets/images/my-pic.jpeg" alt="">
-                            <span class="circle-spin"></span>
-                        </div>
-                        <div class="about-content">
-                            <h3>Frontend Developer</h3>
-                            <p>Greetings! I am a Frontend Maestro, wielding the transformative powers of HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. With 2 years of captivating experiences, I paint digital masterpieces that transcend the boundaries of imagination. Breathing life into pixels, I architect enchanting user interfaces that dance with responsive elegance. From crafting immersive storytelling to orchestrating seamless interactions, I blend technology and artistry to sculpt unforgettable digital experiences. With an insatiable curiosity and a flair for innovation, I embark on a never-ending quest to push the boundaries of frontend development, shaping the future of the digital realm, one stroke of code at a time.</p>
-                            <div class="btn-box">
-                                <a href="#education" class="btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- education section design -->
-        <section class="education" id="education">
-            <div class="container">
-                <h2 class="heading">My<span>Journey</span></h2>
-                <div class="row education-row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 education-col" data-aos="fade-right">
-                        <h3 class="title">Experience</h3>
-                        <div class="education-box">
-                            <div class="education-content">
-                                <div class="content">
-                                    <div class="year"><i class='bx bxs-calendar'></i>March 2022 - Present (Gurgaon)</div>
-                                    <h3>P.K. Online Ventures Pvt. Ltd.</h3>
-                                    <ul>
-                                        <li>utsavyoga.com - (Website Link)</li>
-                                        <li>Designed and developed a customized frontend side with fully responsive for mobile, tablets, and desktops.</li>
-                                        <li>Developed dynamic templates, Landing pages, Community (Social Media), Mailer, Newsletters, and Dynamic scheduling for a Carve out users' wellness journey.</li>
-                                        <li>Design wireframes UI with dummy metadata for the flow of modules, then create template/pages and implement dynamic functionality.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="education-content">
-                                <div class="content">
-                                    <div class="year"><i class='bx bxs-calendar'></i>June 2021 - Feb 2022 (Remote)</div>
-                                    <h3>Creware Technologies</h3>
-                                    <ul>
-                                        <li>Developed and maintained client websites frontend, converting the template into JSX format with the responsive structure for mobile and tablet view.</li>
-                                        <li>Enhanced user experience and accomplished webpage objectives by creating site structure, navigation, page optimization, and graphics integration.</li>
-                                        <li>Developed dynamic frontend view by using API, using functional components and class base components for better functionality, and used postman for data operations.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 education-col" data-aos="fade-left">
-                        <h3 class="title">Education/Ceritfications</h3>
-                        <div class="education-box">
-                            <div class="education-content">
-                                <div class="content">
-                                    <!-- <div class="year"><i class='bx bxs-calendar'></i>2020-2021</div> -->
-                                    <h3>React JS the Complete Guide & Responsive Web Design<span><br>- Udemy</span></h3>
-                                    <p>In this course I'd learned the concepts of React, redux, hooks, and Es6 and HTML5, CSS3, JavaScript, Es6 service, jQuery, Bootstrap. Manage complex state efficiently with React's Context API & React Redux & Learn about routing & route-related data fetching with React Router.</p>
-                                </div>
-                            </div>
-                            <div class="education-content">
-                                <div class="content">
-                                    <!-- <div class="year"><i class='bx bxs-calendar'></i>2018-2019</div> -->
-                                    <h3>Diploma in Computer Application & Web designing<span><br>- Department of Electronics and Accreditation of Computer Courses.</span></h3>
-                                    <p>In this course I learned Four Modules i.e. Business Tool in IT Management system, Introduction of ICT, Internet Technology and Web designing (HTML. CSS, JS), and 'C' Programming for Understanding the basics of web design, including its purpose, principles, and the role it plays in creating engaging user experiences.</p>
-                                </div>
-                            </div>
-                            <div class="education-content">
-                                <div class="content">
-                                    <!-- <div class="year"><i class='bx bxs-calendar'></i>2015-2018</div> -->
-                                    <h3>Bachelor Degree <span><br>- Indira Gandhi National Open University </span></h3>
-                                    <p>BCA student with a passion for technology and software development. Proficient in programming languages and eager to contribute to innovative projects. Strong problem-solving and teamwork abilities.</p>
+    <!-- hero-section  -->
+    <div class="hero-section">
+        <div class="lp-hero-banner">
+            <div class="owl-carousel owl-theme" id="hero-banner">
+                <div class="slide">
+                    <img src="assets/images/slide1.jpg" alt="">
+                    <div class="slide-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h1>Force For Global Good</h1>
+                                    <div class="border-bottom"></div>
+                                    <p>The Quad is a diplomatic partnership between India, Australia, Japan, and the United States committed to supporting an open, stable and prosperous Indo-Pacific that is inclusive and resilient.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>      
-        </section>
-
-         <!-- skills section design -->
-        <section class="skills" id="skills">
-            <div class="container">
-                <h2 class="heading">My <span>Skills</span></h2>
-                <div class="row skills-row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col" data-aos="fade-right">
-                        <h3 class="title">Coding Skills</h3>
-                        <div class="skills-box">
-                            <div class="skill-content">
-                                <div class="skills-bar">
-                                    <h3>HTML <small>90%</small></h3>
-                                    <div class="bars"><span></span></div>
-                                </div>
-                                <div class="skills-bar">
-                                    <h3>CSS/Bootstrap<small>80%</small></h3>
-                                    <div class="bars"><span></span></div>
-                                </div>
-                                <div class="skills-bar">
-                                    <h3>JavaScript/Jquery <small>60%</small></h3>
-                                    <div class="bars"><span></span></div>
-                                </div>
-                                <div class="skills-bar">
-                                    <h3>React/Redux<small>40%</small></h3>
-                                    <div class="bars"><span></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col" data-aos="fade-left">
-                        <h3 class="title">Professional Skills</h3>
-                        <div class="skills-box">
-                            <div class="skill-content">
-                                <div class="skills-bar">
-                                    <h3>Web Design <small>90%</small></h3>
-                                    <div class="bars"><span></span></div>
-                                </div>
-                                <div class="skills-bar">
-                                    <h3>Web Development<small>70%</small></h3>
-                                    <div class="bars"><span></span></div>
-                                </div>
-                                <div class="skills-bar">
-                                    <h3>UI/UX (Design) <small>75%</small></h3>
-                                    <div class="bars"><span></span></div>
-                                </div>
-                                <div class="skills-bar">
-                                    <h3>Team Management<small>80%</small></h3>
-                                    <div class="bars"><span></span></div>
+                <div class="slide">
+                    <img src="assets/images/slide2.jpg" alt="">
+                    <div class="slide-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h1>Force For Global Good</h1>
+                                    <div class="border-bottom"></div>
+                                    <p>The Quad is a diplomatic partnership between India, Australia, Japan, and the United States committed to supporting an open, stable and prosperous Indo-Pacific that is inclusive and resilient.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- contact section design -->
-        <section class="contact" id="contact" data-aos="zoom-in">
-            <div class="container">
-                <h2 class="heading">Contact <span>Me!</span></h2>
-                <div class="row">
-                    <div class="col-12">
-                        <form onsubmit="sendEmail(); reset(); return false;">
-                            <div class="input-box">
-                                <div class="input-field">
-                                    <input type="text" name="fullname" id="name" placeholder="Full Name" required> 
-                                    <span class="focus"></span>
-                                </div>
-                                <div class="input-field">
-                                    <input type="email" name="email" id="email" placeholder="name@email.com" required> 
-                                    <span class="focus"></span>
-                                </div>
-                            </div>
-                            <div class="input-box">
-                                <div class="input-field">
-                                    <input type="number" name="mobileno." id="mobile" placeholder="Mobile Number" required> 
-                                    <span class="focus"></span>
-                                </div>
-                                <div class="input-field">
-                                    <input type="text" name="email-subject" id="subject" placeholder="Email Subject" required> 
-                                    <span class="focus"></span>
-                                </div>
-                            </div>
-                            <div class="textarea-field">
-                                <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your Concern!" required></textarea>
-                                <spna class="focus"></spna>
-                            </div>
-                            <div class="btn-box btns justify-content-center mt-4">
-                                <button type="submit" class="btn">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+        </div>
+    </div>
 
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 by Mohit Varshney | All Rights Reserved.</p>
+            <p>Copyright &copy; 2023 by PK Online | All Rights Reserved.</p>
         </div>
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
 
-  
 
-    <script src="assets/js/main.js"></script>
-    <script src=" https://smtpjs.com/v3/smtp.js"></script>    
-    <script>
-        let typed = new Typed(".auto-type", {
-            strings: [ "UI/UX Developer", "Web Designer" , "Frontend Developer"],
-            typeSpeed: 80,
-            backSpeed: 80,
-            loop: true
-        })
-        AOS.init();
 
-        const sendEmail=()=>{
-
-            console.log(document.getElementById("email").value);
-            Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "varshneymohit35@gmail.com",
-                Password : "ECF57BB1E97B3CCDB68F5A05FCFAE256A4F4",
-                To : 'varshneymohit1304@gmail.com',
-                From : 'varshneymohit35@gmail.com',
-                Subject : document.getElementById('subject').value,
-                Body : "Name: " + document.getElementById('name').value + "<br> Email: " + document.getElementById('email').value + "<br> Mobile: " + document.getElementById('mobile').value + "<br> Subject: " + document.getElementById('subject').value + "<br> Message: " + document.getElementById('message').value
-            }).then(
-              message => alert("Thank you for reaching out. Your message has been successfully submitted. We appreciate your interest and will get back to you as soon as possible. Have a great day!")
-            );
-        }
-
-    </script>
-</body>
+    <script src="/assets/js/main.js"></script>
 
 </html>
