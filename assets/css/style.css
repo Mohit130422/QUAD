@@ -181,8 +181,7 @@ header .nav-links li .sub-menu li:hover a {
   header .nav-links {
     position: absolute;
     z-index: 5;
-    height: -moz-max-content;
-    height: max-content;
+    height: 100vh;
     left: -240px;
     top: 245px;
     bottom: 0;
