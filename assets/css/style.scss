@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@200;300&display=swap');
 $bg-color: #0A0F29;
+$section-head: #F7FAFF;
 $text-color: #ededed;
 $primary-color: #283890;
 $white-color: #ffffff;
@@ -26,6 +27,7 @@ body {
 
 p {
     margin-bottom: 0;
+    font-weight: 500;
 }
 
 a {
@@ -100,7 +102,10 @@ a {
     }
 }
 
-
+.head-font{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
 
 header {
     width: 100%;
@@ -395,9 +400,20 @@ section {
     }
 }
 
+.about-quad{
+    background-color: $section-head;
+    padding: 25px 0;
+    h2{
+       font-size: 1.75rem; 
+    }
+}
+.content{
+    img{
+        width: 100%;
+    }
+}
 .quad-members {
     background-color: #F7FAFF;
-
     img {
         width: 100%;
     }
@@ -503,7 +519,7 @@ section {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                object-position: center;
+                object-position: top center;
             }
         }
         .body{
@@ -516,6 +532,53 @@ section {
                 color: $primary-color;
             }
         }
+    }
+}
+
+.meetings{
+    .meetings-info{
+        margin-bottom: 5rem;
+        .date{
+            color: $primary-color;
+            font-weight: 500;
+            margin: 16px 0;
+        }
+        img{
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 16px;
+            box-shadow: rgba(0, 0, 0, 0.11) 2px 2px 4px;
+        }
+        li a{
+            color: $primary-color;
+            font-weight: 500;
+            text-decoration: underline !important;
+        }
+    }
+    .meeting-links{
+        padding: 0 0 0 2rem;
+        .links{
+            padding: 0 0 0 8px;
+            a{
+                color: $primary-color;
+                font-weight: 500;
+                margin-bottom: 8px
+            }
+            &:hover{
+                background-color: $section-head;
+                border-left: 4px solid $highlight-color;
+                border-radius: 5px;
+            }
+        }
+        @media(max-width: 576px){
+            display: none;
+        }
+    }
+}
+
+.ministers-info{
+    li{
+        font-weight: 500;
     }
 }
 

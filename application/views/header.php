@@ -23,7 +23,7 @@
     <!-- header design -->
     <header id="myHeader">
         <div class="top-head">
-            <a href="#home" class="logo"><img src="assets/images/logo.jpeg" alt=""></a>
+            <a href="<?=base_url('')?>" class="logo"><img src="assets/images/logo.jpeg" alt=""></a>
             <div class="search-bar">
                 <div class="search-box">
                     <input type="text" name="search" class="search" placeholder="Search">
@@ -36,13 +36,13 @@
         </div>
         <div class="nav-links">
             <ul class="d-flex align-items-center mb-0">
-                <li><a href="#" class="active-link">Home</a></li>
-                <li><a href="#aboutus">About Quad</a></li>
+                <li><a href="<?=base_url('')?>" class="active-link">Home</a></li>
+                <li><a href="<?=base_url('about-us')?>">About Quad</a></li>
                 <li>
                     <a href="#">Meetings</a>
                     <ul class="sub-menu">
-                        <li><a href="#">Leaders</a></li>
-                        <li><a href="#">Foreign Ministers</a></li>
+                        <li><a href="<?=base_url('leaders')?>">Leaders</a></li>
+                        <li><a href="<?=base_url('foreign-ministers')?>">Foreign Ministers</a></li>
                     </ul>
                 </li>
                 <li>

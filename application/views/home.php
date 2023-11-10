@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <p>Quad brings together four countries -  Australia, India, Japan, and the United States, with a commitment to work as a force for global good and to support an open, free, and inclusive Indo-pacific that is prosperous and resilient.</p>
-                    <p>Quad came together for the first time during the 2004 tsunami in the Indian Ocean region to coordinate response and assistance to countries in the region. The first meeting of Quad officials took place in May 2007. Meetings of senior officials have been held on a regular basis since November 2017. Quad was elevated to the Leaders’ level in 2021. <a href="#">Read More</a></p>
+                    <p>Quad came together for the first time during the 2004 tsunami in the Indian Ocean region to coordinate response and assistance to countries in the region. The first meeting of Quad officials took place in May 2007. Meetings of senior officials have been held on a regular basis since November 2017. Quad was elevated to the Leaders’ level in 2021. <a href="<?=base_url('about-us')?>">Read More</a></p>
                 </div>
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <img src="assets/images/about.png" alt="">
@@ -49,25 +49,25 @@
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 text-center">
-                    <a href="#">
+                    <a href="https://www.australia.gov.au/" target="_blank">
                         <img src="assets/images/australia.png" alt="Australia">
                         <p>Australia</p>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 text-center">
-                    <a href="#">
+                    <a href="https://www.india.gov.in/" target="_blank">
                         <img src="assets/images/india.png" alt="Australia">
                         <p>India</p>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 text-center">
-                    <a href="#">
+                    <a href="https://www.japan.go.jp/" target="_blank">
                         <img src="assets/images/japan.png" alt="Australia">
                         <p>Japan</p>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 text-center">
-                    <a href="#">
+                    <a href="https://www.usa.gov/" target="_blank">
                         <img src="assets/images/united state.png" alt="Australia">
                         <p>United States</p>
                     </a>
@@ -130,9 +130,9 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="#" class="card">
+                    <a href="<?=base_url('leaders#link5')?>" class="card">
                         <div class="thumb">
-                            <img src="assets/images/meet1.jpg" alt="">
+                            <img src="assets/images/fifth_meet.jpg" alt="">
                         </div>
                         <div class="body">
                             <p>Fifth Quad Leaders’ Summit (third in-person) was held in Hiroshima</p>
@@ -141,9 +141,9 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="#" class="card">
+                    <a href="<?=base_url('leaders#link4')?>" class="card">
                         <div class="thumb">
-                            <img src="assets/images/history2.jpg" alt="">
+                            <img src="assets/images/fourth_meet.jpg" alt="">
                         </div>
                         <div class="body">
                             <p>Fourth Quad Leaders’ Summit (second in-person) was hosted by Japan</p>
@@ -152,9 +152,9 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="#" class="card">
+                    <a href="<?=base_url('leaders#link3')?>" class="card">
                         <div class="thumb">
-                            <img src="assets/images/meet2.jpg" alt="">
+                            <img src="assets/images/third_meet.jpeg" alt="">
                         </div>
                         <div class="body">
                             <p>Third Quad Leaders’ Summit was held virtually</p>
@@ -163,9 +163,9 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="#" class="card">
+                    <a href="<?=base_url('leaders#link2')?>" class="card">
                         <div class="thumb">
-                            <img src="assets/images/meet3.jpg" alt="">
+                            <img src="assets/images/second_meet.jpeg" alt="">
                         </div>
                         <div class="body">
                             <p>Second Quad Leaders’ Summit (first in-person)</p>
@@ -174,9 +174,9 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="#" class="card">
+                    <a href="<?=base_url('leaders#link1')?>" class="card">
                         <div class="thumb">
-                            <img src="assets/images/meet4.jpg" alt="">
+                            <img src="assets/images/first_meet.jpg" alt="">
                         </div>
                         <div class="body">
                             <p>First Quad Leaders’ Summit taking place in virtual format</p>

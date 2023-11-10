@@ -24,4 +24,25 @@ class Welcome extends CI_Controller {
 		$this->load->view('home');
 		$this->load->view('footer');
 	}
+	public function aboutUs()
+	{
+		
+		$this->load->view('header');
+		$this->load->view('about'); // view page name
+		$this->load->view('footer');
+	}
+	public function leaders()
+	{
+		
+		$this->load->view('header');
+		$this->load->view('leaders'); // view page name
+		$this->load->view('footer');
+	}
+	public function foreignMinisters()
+	{
+		
+		$this->load->view('header');
+		$this->load->view('foreign-ministers'); // view page name
+		$this->load->view('footer');
+	}
 }

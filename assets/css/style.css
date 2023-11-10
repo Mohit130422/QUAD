@@ -19,6 +19,7 @@ body {
 
 p {
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 a {
@@ -72,6 +73,11 @@ a {
   background-color: #F7931D;
   margin: 16px 0;
   border-radius: 5px;
+}
+
+.head-font {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 
 header {
@@ -332,6 +338,18 @@ section {
   width: 100%;
 }
 
+.about-quad {
+  background-color: #F7FAFF;
+  padding: 25px 0;
+}
+.about-quad h2 {
+  font-size: 1.75rem;
+}
+
+.content img {
+  width: 100%;
+}
+
 .quad-members {
   background-color: #F7FAFF;
 }
@@ -430,8 +448,8 @@ section {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-position: top center;
+     object-position: top center;
 }
 .quad-meetings .card .body {
   padding: 16px 0;
@@ -442,6 +460,51 @@ section {
 }
 .quad-meetings .card .body .date {
   color: #283890;
+}
+
+.meetings .meetings-info {
+  margin-bottom: 5rem;
+}
+.meetings .meetings-info .date {
+  color: #283890;
+  font-weight: 500;
+  margin: 16px 0;
+}
+.meetings .meetings-info img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  box-shadow: rgba(0, 0, 0, 0.11) 2px 2px 4px;
+}
+.meetings .meetings-info li a {
+  color: #283890;
+  font-weight: 500;
+  text-decoration: underline !important;
+}
+.meetings .meeting-links {
+  padding: 0 0 0 2rem;
+}
+.meetings .meeting-links .links {
+  padding: 0 0 0 8px;
+}
+.meetings .meeting-links .links a {
+  color: #283890;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.meetings .meeting-links .links:hover {
+  background-color: #F7FAFF;
+  border-left: 4px solid #F7931D;
+  border-radius: 5px;
+}
+@media (max-width: 576px) {
+  .meetings .meeting-links {
+    display: none;
+  }
+}
+
+.ministers-info li {
+  font-weight: 500;
 }
 
 .footer {
