@@ -52,8 +52,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'welcome';
 $route['about-us'] = 'Welcome/aboutUs'; // controller name with function name
-$route['leaders'] = 'Welcome/leaders';
-$route['foreign-ministers'] = 'Welcome/foreignMinisters';
+$route['meetings/leaders'] = 'Welcome/leaders';
+$route['meetings/foreign-ministers'] = 'Welcome/foreignMinisters';
+$route['areas-of-cooperation/climate'] = 'Welcome/climate';
+$route['areas-of-cooperation/critical-emerging-technologies'] = 'Welcome/criticalEmergingTechnologies';
+$route['areas-of-cooperation/cyber'] = 'Welcome/cyber';
+$route['areas-of-cooperation/health-security-partnership'] = 'Welcome/healthSecurityPartnership';
+$route['areas-of-cooperation/infrastructure'] = 'Welcome/infrastructure';
+$route['areas-of-cooperation/space'] = 'Welcome/space';
+$route['initiatives/indo-pacific-partnership-for-maritime-domain-awareness'] = 'Welcome/indoPacificPartnership';
+$route['initiatives/stem-fellowships'] = 'Welcome/stemFellowships';
+$route['initiatives/counter-terrorism'] = 'Welcome/counterTerrorism';
+$route['media-resources'] = 'Welcome/mediaResources';
+$route['contact-us'] = 'Welcome/contactUs';
 // $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
