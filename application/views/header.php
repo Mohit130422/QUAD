@@ -20,14 +20,15 @@
 </head>
 
 <body>
+    
     <!-- header design -->
     <header id="myHeader">
         <div class="top-head">
             <a href="<?=base_url('')?>" class="logo"><img src="<?=base_url('')?>assets/images/logo.jpeg" alt=""></a>
             <div class="search-bar">
                 <div class="search-box">
-                    <input type="text" name="search" class="search" placeholder="Search">
-                    <i class='bx bx-search-alt'></i>
+                    <input type="text" name="search" onkeyup="searchText()" class="search" id="searchKeys" placeholder="Search">
+                    <button class="search-btn" ><i class='bx bx-search-alt'></i></button>
                 </div> 
             </div>
         </div>
@@ -65,7 +66,9 @@
                     </ul>
                 </li>
                 <a href="<?=base_url('media-resources')?>"><li>Media & Resources</li></a>
-                <a href="<?=base_url('contact-us')?>"><li>Contact Us</li></a>
+                <!-- <a href="<?=base_url('contact-us')?>"><li>Contact Us</li></a> -->
             </ul>
         </div> 
     </header> 
+
+    <div class="main-div">

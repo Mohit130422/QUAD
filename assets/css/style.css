@@ -75,6 +75,11 @@ a {
   border-radius: 5px;
 }
 
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
 .head-font {
   font-family: "Playfair Display", serif;
   font-weight: 600;
@@ -98,19 +103,12 @@ header .top-head .search-box {
   position: relative;
   margin: auto;
 }
-header .top-head .search-box i {
-  position: absolute;
-  right: 14.5px;
-  top: 14px;
-  color: #283890;
-  font-size: 25px;
-}
 header .top-head .search-box input {
   border: 1px solid rgba(203, 203, 203, 0.4392156863);
   border-radius: 5px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4392156863);
-  padding: 12px 40px 12px 9px;
+  padding: 12px 60px 12px 9px;
 }
 header .top-head .search-box input:focus {
   outline: none;
@@ -118,6 +116,19 @@ header .top-head .search-box input:focus {
 header .top-head .search-box input::-webkit-input-placeholder {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4392156863);
+}
+header .top-head .search-box .search-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 14px;
+  background-color: #283890;
+  border-radius: 0 5px 5px 0;
+}
+header .top-head .search-box .search-btn i {
+  color: #ffffff;
+  font-size: 25px;
 }
 header .menu {
   background-color: #283890;

@@ -1,3 +1,4 @@
+</div>
   <!-- footer design -->
   <footer class="footer">
         <div class="container">

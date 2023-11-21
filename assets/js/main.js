@@ -39,4 +39,19 @@ $(document).ready(function () {
   });
 });
 
+function searchText(){
+  let input = document.getElementById('searchKeys').value; 
+  input=input.toLowerCase(); 
+  console.log(input);
+  let x = document.getElementsByTagName('p'); 
+    
+  for (i = 0; i < x.length; i++) {  
+      if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+          // x[i].style.display="none"; 
+      } 
+      else { 
+          x[i].style.backgroundColor="yellow";                  
+      } 
+  } 
+}
 

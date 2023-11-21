@@ -29,7 +29,7 @@
                     <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/36572/Quad_Statement_of_Principles_on_Clean_Energy_Supply_Chains_in_the_IndoPacific" class="links" target="_blank">Quad Statement of Principles on Clean Energy Supply Chains in the Indo-Pacific, 20 May 2023</a></li>
                     <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/36574/Quad_Cybersecurity_Partnership_Joint_Principles_for_Secure_Software" class="links" target="_blank">Quad Cybersecurity Partnership: Joint Principles for Secure Software, 20 May 2023</a></li>
                     <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/36575/Quad_Principles_on_Critical_and_Emerging_Technology_Standards" class="links" target="_blank">Quad Principles on Critical and Emerging Technology Standards, 20 May 2023</a></li>
-                    <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/36576/Open_RAN_Security_Report_Outcome_from_Quad_Critical_and_Emerging_Technology_Working_Group" class="links" target="_blank">Quad Leaders’ Vision Statement – Enduring Partners for the Indo-Pacific, 20 May 2023</a></li>
+                    <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/36576/Open_RAN_Security_Report_Outcome_from_Quad_Critical_and_Emerging_Technology_Working_Group" class="links" target="_blank">Open RAN Security Report: Outcome from Quad Critical and Emerging Technology Working Group, May 2023</a></li>
                 </ul>
                 <h1 class="heading mb-5">
                     Foreign Ministers
@@ -38,8 +38,9 @@
                 <p>Fifth Quad Leaders’ Summit (third in-person), 20 May 2023, Hiroshima</p>
                 <ul>
                     <li><a href="#" class="links" target="_blank">QFMM, 3 March 2023, New Delhi</a></li>
-                    <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/36323/Joint_Statement_Quad_Foreign_Ministers_Meeting" class="links" target="_blank">Joint Statement: Quad Foreign Ministers’ Meeting</a></li>
-                    <li><a href="#" class="links" target="_blank">QFMM, 22 September 2023, on the margins of the UNGA in New York</a></li>
+                </ul>
+                <p>QFMM, 22 September 2023, on the margins of the UNGA in New York</p>
+                <ul>
                     <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/37144/Joint_Readout_of_the_Quad_Foreign_Ministers_Meeting" class="links" target="_blank">Joint Readout of the Quad Foreign Ministers’ Meeting</a></li>
                 </ul>
             </div>
@@ -88,16 +89,6 @@
                     <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/34318/Joint_Statement_from_Quad_Leaders" class="links" target="_blank">Joint Statement from Quad Leaders, 24 September 2021</a></li>
                     <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/34319/Fact_Sheet_Quad_Leaders_Summit" class="links" target="_blank">Fact Sheet: Quad Leaders’ Summit, 24 September 2021</a></li>
                     <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/34323/Quad_Principles_on_Technology_Design_Development_Governance_and_Use" class="links" target="_blank">Quad Principles on Technology Design, Development, Governance, and Use</a></li>
-                </ul>
-                <h1 class="heading mb-5">
-                    Foreign Ministers
-                    <div class="border-bottom"></div>
-                </h1>
-                <p>QFMM, 23 September 2022, on the margins of the UNGA in New York</p>
-                <ul>
-                    <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/35744/Joint_Readout_of_Quad_Ministerial_Meeting" class="links" target="_blank">Joint Readout of Quad Ministerial Meeting</a></li>
-                    <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/35745/Guidelines_for_Quad_Partnership_on_Humanitarian_Assistance_and_Disaster_Relief_HADR_in_the_IndoPacific" class="links" target="_blank">Guidelines for Quad Partnership on Humanitarian Assistance and Disaster Relief (HADR) in the Indo-Pacific</a></li>
-                    <li><a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/35746/Quad_Foreign_Ministers_Statement_on_Ransomware" class="links" target="_blank">Quad Foreign Ministers’ Statement on Ransomware</a></li>
                 </ul>
             </div>
         </div>
