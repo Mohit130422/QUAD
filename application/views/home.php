@@ -130,7 +130,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="<?=base_url('leaders#link5')?>" class="card">
+                    <a href="<?=base_url('meetings/leaders#link5')?>" class="card">
                         <div class="thumb">
                             <img src="assets/images/fifth_meet.jpg" alt="">
                         </div>
@@ -141,7 +141,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="<?=base_url('leaders#link4')?>" class="card">
+                    <a href="<?=base_url('meetings/leaders#link4')?>" class="card">
                         <div class="thumb">
                             <img src="assets/images/fourth_meet.jpg" alt="">
                         </div>
@@ -152,7 +152,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="<?=base_url('leaders#link3')?>" class="card">
+                    <a href="<?=base_url('meetings/leaders#link3')?>" class="card">
                         <div class="thumb">
                             <img src="assets/images/third_meet.jpeg" alt="">
                         </div>
@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="<?=base_url('leaders#link2')?>" class="card">
+                    <a href="<?=base_url('meetings/leaders#link2')?>" class="card">
                         <div class="thumb">
                             <img src="assets/images/second_meet.jpeg" alt="">
                         </div>
@@ -174,7 +174,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="<?=base_url('leaders#link1')?>" class="card">
+                    <a href="<?=base_url('meetings/leaders#link1')?>" class="card">
                         <div class="thumb">
                             <img src="assets/images/first_meet.jpg" alt="">
                         </div>
