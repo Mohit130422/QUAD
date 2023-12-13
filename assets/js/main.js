@@ -8,7 +8,7 @@ $(document).ready(function () {
      }
     else
      {
-      $('.nav-links').addClassClass('nav-on');
+      $('.nav-links').addClass('nav-on');
      }
  });
 
@@ -22,7 +22,7 @@ $(document).ready(function () {
     dots: true,
     nav: true,
     animateOut: 'fadeOut',
-    autoplay: true,
+    // autoplay: true,
     autoplayTimeout: 4000,
     autoplayHoverPause:true,
     responsive: {

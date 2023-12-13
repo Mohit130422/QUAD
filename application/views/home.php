@@ -6,10 +6,19 @@
         <div class="lp-hero-banner">
             <div class="owl-carousel owl-theme" id="hero-banner">
                 <div class="slide">
-                    <img src="assets/images/slide1.jpg" alt="">
+                    <img src="<?=base_url()?>assets/images/slide1.jpg" alt="">
                 </div>
                 <div class="slide">
-                    <img src="assets/images/slide2.jpg" alt="">
+                    <img src="<?=base_url()?>assets/images/slide2.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="<?=base_url()?>assets/images/slide3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="<?=base_url()?>assets/images/slide4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="<?=base_url()?>assets/images/slide5.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -89,7 +98,7 @@
             <div class="row">
                 <div class="col-12 content">
                     <div class="img">
-                        <img src="assets/images/history1.jpg" alt="">
+                        <img src="assets/images/history3.jpg" alt="">
                     </div>
                     <div class="info border-left">
                         <h3 class="heading">2004</h3>
@@ -107,7 +116,7 @@
                 </div>
                 <div class="col-12 content">
                     <div class="img">
-                        <img src="assets/images/history3.jpg" alt="">
+                        <img src="assets/images/history1.jpg" alt="">
                     </div>
                     <div class="info border-left">
                         <h3 class="heading">2021</h3>
